@@ -17,3 +17,15 @@ Ottenere le informazioni sullo stato:
 Per avere coerenza con le guida, e'possibile creare un alias del comando `microk8s.kubectl` come `kubectl`:
 
 ``alias kubectl='microk8s.kubectl'``
+
+
+## Kubernetes Client
+
+Verificare la versione del client e del server:
+
+``kubectl version``
+
+Ottenere una semplice diagnostica del cluster:
+
+``kubectl get componentstatuses``
+
